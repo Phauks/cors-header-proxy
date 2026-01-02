@@ -24,9 +24,9 @@ export default {
       if (!targetUrl) {
         return new Response(
           'CORS Proxy Usage:\n' +
-          'https://cors-header-proxy.infiniteinstants.com/?https://target-url.com\n\n' +
+          'https://cors-header-proxy.grimbound.com/?https://target-url.com\n\n' +
           'Example:\n' +
-          'https://cors-header-proxy.infiniteinstants.com/?https://api.github.com',
+          'https://cors-header-proxy.grimbound.com/?https://api.github.com',
           {
             status: 400,
             headers: {
